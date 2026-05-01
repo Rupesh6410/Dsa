@@ -12,7 +12,7 @@ class Solution:
                 curr_sum = arr[i] + arr[l] + arr[r]
 
                 if curr_sum < sum:
-                    ans += (r - l)   # key logic
+                    ans += (r - l)   
                     l += 1
                 else:
                     r -= 1
